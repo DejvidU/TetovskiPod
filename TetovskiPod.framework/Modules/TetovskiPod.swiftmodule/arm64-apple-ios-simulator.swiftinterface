@@ -1,0 +1,15 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name TetovskiPod
+import Foundation
+import Swift
+@_exported import TetovskiPod
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct PerTetove {
+  public static func validateShef(_ bossName: Swift.String) -> Swift.String
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func pinValidator(_ pin: Swift.Int) async
+  #endif
+}

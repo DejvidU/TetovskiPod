@@ -1,0 +1,6 @@
+framework module TetovskiPod {
+  umbrella header "TetovskiPod.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,134 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TetovskiPod",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TetovskiPod"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "TetovskiPod",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PerTetove",
+        "printedName": "PerTetove",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "validateShef",
+            "printedName": "validateShef(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TetovskiPod9PerTetoveV12validateShefyS2SFZ",
+            "mangledName": "$s11TetovskiPod9PerTetoveV12validateShefyS2SFZ",
+            "moduleName": "TetovskiPod",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pinValidator",
+            "printedName": "pinValidator(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TetovskiPod9PerTetoveV12pinValidatoryySiYaFZ",
+            "mangledName": "$s11TetovskiPod9PerTetoveV12pinValidatoryySiYaFZ",
+            "moduleName": "TetovskiPod",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PerTetove",
+                "printedName": "TetovskiPod.PerTetove",
+                "usr": "s:11TetovskiPod9PerTetoveV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TetovskiPod9PerTetoveVACycfc",
+            "mangledName": "$s11TetovskiPod9PerTetoveVACycfc",
+            "moduleName": "TetovskiPod",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TetovskiPod9PerTetoveV",
+        "mangledName": "$s11TetovskiPod9PerTetoveV",
+        "moduleName": "TetovskiPod",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dejvid\/Desktop\/TestWork\/TheFramework\/TetovskiPod\/TetovskiPod\/PerTetove.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 7,
+      "value": "\"Carot\""
+    }
+  ]
+}
